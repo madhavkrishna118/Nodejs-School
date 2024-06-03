@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://your-git-repo-url.git'
+                git 'https://github.com/madhavkrishna118/Nodejs-School.git'
             }
         }
 
